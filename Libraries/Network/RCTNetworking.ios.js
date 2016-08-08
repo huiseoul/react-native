@@ -42,7 +42,7 @@ class RCTNetworking extends NativeEventEmitter {
       data: {...body, trackingName},
       headers,
       responseType,
-      incrementalUpdates,
+      incrementalUpdates: false,
       timeout
     }, callback);
   }
